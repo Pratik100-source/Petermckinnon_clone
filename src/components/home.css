@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow-x: hidden; */
+  }
+  
+  .parallax1{
+    height: 100vh; /* or other desired height */
+  }
+  
+  .parallax2 {
+    height: 80vh;
+  }
+  
+  .parallax3 {
+    height: 90vh;
+  }
+  
+  .parallax4 {
+    height: 80vh;
+  }
+  
+  /* Adding custom styles for the background position */
+  .parallax1 .react-parallax-background-children,
+  .parallax2 .react-parallax-background-children,
+  .parallax3 .react-parallax-background-children,
+  .parallax4 .react-parallax-background-children {
+    background-position: bottom -100px center !important;
+  }
+  
